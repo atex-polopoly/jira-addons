@@ -1,4 +1,15 @@
 {
+  "key": "com.atex.confluence.theme.atex-wiki",
+  "name": "Atex Wiki Theme",
+  "description": "To share documentation with customers",
+  "vendor": {
+    "name": "Atex",
+    "url": "http://www.atex.com"
+  },
+  "baseUrl": "https://github.com/atex-polopoly/jira-addons/tree/main/confluence/atex-wiki",
+  "authentication": {
+    "type": "none"
+  },
   "modules": {
     "confluenceThemes": [{
         "key": "atex-wiki-theme",
