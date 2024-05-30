@@ -1,1 +1,0 @@
-jar cf atex-wiki-theme.jar *.xml *.css *.png
