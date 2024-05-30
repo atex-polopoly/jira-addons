@@ -1,0 +1,23 @@
+<atlassian-plugin key="com.atex.confluence.theme.atex-wiki" name="Atex Wiki Theme" plugins-version="1">
+
+  <plugin-info>
+    <description>To share documentation with customers</description>
+    <version>1.0</version>
+    <vendor name="Atex" url="http://www.atex.com"/>
+  </plugin-info>
+
+  <theme key="atex-wiki-theme" name="Atex Wiki" class="com.atlassian.confluence.themes.BasicTheme">
+    <description>Atex Wiki Theme</description>
+    
+    <resource type="download" name="default-theme.css" location="/includes/css/default-theme.css">
+      <param name="source" value="webContext"/>
+    </resource>
+
+    <resource type="download" name="atex-wiki.css" location="atex-wiki.css"/>
+    <resource type="download" name="image.png" location="logo-atex.png"/>
+    <param name="includeClassicStyles" value="false"/>
+
+    <resource key="icon" type="download" name="icon.png" location="logo-atex.png" />
+  </theme>
+
+</atlassian-plugin>
